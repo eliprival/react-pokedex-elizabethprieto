@@ -1,0 +1,48 @@
+.pokefooter {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.pokefooter__black {
+  background-color: black;
+  height: 30px;
+  position: relative;
+}
+
+.pokefooter__black {
+  background-color: black;
+  height: 30px;
+  position: relative;
+}
+.pokefooter__outercircle {
+  background-color: white;
+  border: 10px solid black;
+  transform: translateY(50%);
+  border-radius: 50%;
+  width: 80px;
+  aspect-ratio: 1;
+  position: absolute;
+  bottom: 50%;
+}
+
+.pokefooter__innercircle {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  transform: translateY(50%);
+  background-color: gray;
+  border: 10px solid black;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+}
+
+.pokefooter__red {
+  background-color: #f40637;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+}
