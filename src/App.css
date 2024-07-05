@@ -43,3 +43,8 @@ button {
   font-family: inherit;
   text-align: center;
 }
+
+.app {
+  display: flex;
+  align-items: center;
+}

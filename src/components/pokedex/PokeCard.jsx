@@ -15,7 +15,6 @@ const PokeCard = ({ url }) => {
     navigate(`/pokedex/${pokemon.id}`);
   };
 
-  console.log(pokemon);
   return (
     <article
       className={`pokecard ${pokemon?.types[0].type.name}`}
