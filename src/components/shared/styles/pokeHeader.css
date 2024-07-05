@@ -1,0 +1,29 @@
+.pokeheader {
+  width: 100%;
+}
+
+.pokeheader__red {
+  position: relative;
+  background-color: #f40637;
+  height: 60px;
+}
+
+.pokeheader__imglogo {
+  width: 250px;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.pokeheader__black {
+  position: relative;
+  background-color: black;
+  height: 40px;
+}
+
+.pokeheader__imgtrainer {
+  position: absolute;
+  height: 80px;
+  top: 2%;
+  right: -8%;
+}
